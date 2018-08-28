@@ -1,0 +1,25 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript">
+
+
+##########################
+#### Custom Constants ####
+##########################
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:uebungs_template/Configuration/TypoScript/Constants">
+
+styles.templates {
+    templateRootPath = EXT:pactware_template/Resources/Private/Templates/CE/
+    partialRootPath = EXT:pactware_template/Resources/Private/Partials/CE/
+    layoutRootPath = EXT:pactware_template/Resources/Private/Layouts/CE/
+}
+
+uebungs_template{
+    pids{
+        home = 1
+    }
+    uids{
+
+    }
+}

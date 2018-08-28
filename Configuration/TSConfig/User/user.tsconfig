@@ -1,0 +1,9 @@
+[adminUser = 1]
+    options {
+        # ref: https://docs.typo3.org/typo3cms/TSconfigReference/singlehtml/#pagetree-showpageidwithtitle
+        pageTree.showPageIdWithTitle = 1
+        clearCache.all = 1
+    }
+[END]
+
+options.defaultUploadFolder = 1:user_upload/

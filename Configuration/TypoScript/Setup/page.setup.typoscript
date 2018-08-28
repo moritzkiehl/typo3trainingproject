@@ -1,0 +1,76 @@
+##############
+#### PAGE ####
+##############
+page = PAGE
+page {
+    typeNum = 0
+    10 = FLUIDTEMPLATE
+    10 {
+        templateName = TEXT
+        templateName.stdWrap.cObject = CASE
+        templateName.stdWrap.cObject {
+            key.field = backend_layout
+
+            pagets__Startseite = TEXT
+            pagets__Startseite.value = Startseite
+
+            pagets__Standard = TEXT
+            pagets__Standard.value = Standard
+
+            default = TEXT
+            default.value = Standard
+        }
+
+
+        templateRootPaths {
+            10 = EXT:uebungs_template/Resources/Private/Templates/Page/
+            20 = EXT:uebungs_template/Resources/Private/Templates/
+        }
+
+        partialRootPaths {
+            10 = EXT:uebungs_template/Resources/Private/Partials
+
+        }
+
+        layoutRootPaths {
+            10 = EXT:uebungs_template/Resources/Private/Layouts
+
+        }
+
+        settings {
+            pids {
+                home = {$uebungs_template.pids.home}
+            }
+        }
+
+        variables {
+            main = COA
+            main {
+                10 < styles.content.get
+                10.select {
+                    colPos = 0
+                }
+            }
+
+            aside = CONTENT
+            aside {
+                table = tt_content
+                select.where = colPos=2
+                select.orderBy = sorting
+                slide = -1
+            }
+
+            footer = CONTENT
+            footer {
+                table = tt_content
+                select.where = colPos=1
+                select.orderBy = sorting
+                slide = -1
+            }
+
+        }
+
+
+
+    }
+}

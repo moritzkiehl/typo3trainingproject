@@ -1,0 +1,12 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript">
+
+
+######################
+#### Custom Setup ####
+######################
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:uebungs_template/Configuration/TypoScript/Setup">
+
+
