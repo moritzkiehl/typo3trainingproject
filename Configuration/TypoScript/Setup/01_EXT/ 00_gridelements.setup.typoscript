@@ -1,0 +1,17 @@
+lib.gridelements{
+    defaultGrid<tt_content.gridelements_pi1.20.10.default
+    defaultGrid{
+        cObject = FLUIDTEMPLATE
+        cObject{
+            templateName = TEXT
+            templateName.field = tx_gridelements_backend_layout
+
+            layoutRootPaths.10 = EXT:uebungs_template/Resources/Private/Layouts/
+            partialRootPaths.10 = EXT:uebungs_template/Resources/Private/Partials/
+            templateRootPaths.10 = EXT:uebungs_template/Resources/Private/Templates/Gridelements/
+        }
+    }
+}
+
+tt_content.gridelements_pi1.20.10.setup.TwoCol < lib.gridelements.defaultGrid
+tt_content.gridelements_pi1.20.10.setup.Accordeon < lib.gridelements.defaultGrid

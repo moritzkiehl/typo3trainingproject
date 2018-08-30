@@ -1,0 +1,16 @@
+<div class="-accordeon">
+
+    <a class="accordeon-header" data-toggle="collapse" href="#collapse-{data.uid}" role="button" aria-expanded="false"
+       aria-controls="collapse">
+        <div class="accordeon-header-content">
+            <span class="accordeon-headline">{data.header}</span>
+            <i class="icon-closed fas fa-caret-down"></i>
+            <i class="icon-opened fas fa-times "></i>
+        </div>
+    </a>
+    <div class="collapse accordeon-body" data-parent=".page-content" id="collapse-{data.uid}">
+        <div class="card card-body">
+            {data.tx_gridelements_view_column_10 -> f:format.raw()}
+        </div>
+    </div>
+</div>

@@ -67,10 +67,23 @@ page {
                 select.orderBy = sorting
                 slide = -1
             }
-
         }
+    }
 
-
+    headerData{
+        10 = TEXT
+        10.value = <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    }
+    includeCSS{
+        bootstrapCSS = EXT:uebungs_template/Resources/Public/CSS/bootstrap.css
 
     }
+    includeJSFooter{
+        bootstrapJS = EXT:uebungs_template/Resources/Public/JS/bootstrap.js
+    }
+    includeJSFooterlibs{
+        jquery = EXT:uebungs_template/Resources/Public/JS/jquery-3.3.1.js
+
+    }
+
 }
