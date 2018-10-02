@@ -76,6 +76,7 @@ page {
     }
     includeCSS{
         bootstrapCSS = EXT:uebungs_template/Resources/Public/CSS/bootstrap.css
+        styles = EXT:uebungs_template/Resources/Public/CSS/styles.css
 
     }
     includeJSFooter{

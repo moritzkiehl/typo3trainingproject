@@ -27,7 +27,7 @@ defined('TYPO3_MODE') || die('Access denied.');
 /**
  * CKEditor preset/overwrite
  */
-//$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets'][$_EXTKEY] = 'EXT:' . $_EXTKEY . '/Configuration/CKEditor/CKEditorPreset.yaml';
+$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets'][$_EXTKEY] = 'EXT:' . $_EXTKEY . '/Configuration/CKEditor/CKEditorPreset.yaml';
 
 /**
  * fluid cache lifetime! set to 1 year

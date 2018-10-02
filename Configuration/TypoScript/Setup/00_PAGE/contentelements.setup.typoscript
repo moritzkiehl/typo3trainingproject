@@ -1,0 +1,16 @@
+lib.contentElement{
+    layoutRootPaths.20 = EXT:uebungs_template/Resources/Private/Layouts/CE
+    partialRootPaths.20 = EXT:uebungs_template/Resources/Private/Partials/CE
+    templateRootPaths.20 = EXT:uebungs_template/Resources/Private/Templates/CE
+}
+
+tt_content{
+    fewo-gallery =< lib.contentElement
+    fewo-gallery{
+        templateName = FewoGallery
+        10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+        10 {
+            references.fieldName = image
+        }
+    }
+}

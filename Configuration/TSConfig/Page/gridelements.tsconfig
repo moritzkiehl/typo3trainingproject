@@ -16,14 +16,14 @@ tx_gridelements {
                                 name = Linke Spalte
                                 colPos = 10
                                 allowed {
-                                    CType = text,image,header
+                                    CType = text,image,header,textmedia
                                 }
                             }
                             2 {
                                 name = Rechte Spalte
                                 colPos = 20
                                 allowed {
-                                    CType = text,image,header
+                                    CType = text,image,header,textmedia
                                 }
                             }
                         }

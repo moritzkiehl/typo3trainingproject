@@ -1,0 +1,52 @@
+imports:
+- { resource: "EXT:rte_ckeditor/Configuration/RTE/Processing.yaml" }
+- { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
+- { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
+#    in order to enable rte_ckeditor_image you need to install it first!
+#    - { resource: "EXT:rte_ckeditor_image/Configuration/RTE/Plugin.yaml" }
+
+editor:
+  config:
+    contentsCss: "EXT:uebungs_template/Resources/Public/CSS/editor.css"
+    defaultContentLanguage: "de"
+    defaultLanguage: "de"
+    toolbarGroups:
+    - { name: document, groups: [ mode, document, doctools ] }
+    - { name: styles }
+    - { name: clipboard, groups: [ clipboard, undo ] }
+    - { name: editing, groups: [ find, selection,editing ] }
+    - { name: basicstyles, groups: [ basicstyles, cleanup ] }
+    - { name: paragraph, groups: [ list, blocks, align, bidi, paragraph ] }
+    - { name: links, groups: [ links ] }
+
+
+    #removing mostly unused/unnecessary buttons
+    removeButtons:
+    - Anchor
+    - Superscript
+    - Subscript
+    - Underline
+    - Strike
+    - Maximize
+    - HorizontalRule
+    - PageBreak
+    - PasteFromWord
+    - PasteText
+    - Blockquote
+
+    #add justify plugin
+    extraPlugins:
+    - justify
+
+    #add justify Classes
+    justifyClasses:
+    - text-left
+    - text-center
+    - text-right
+    - text-justify
+
+
+    #Basic button Styling with bootstrap classes(needs bootstrap css)
+    stylesSet:
+    - { name: 'Weißer Button mit blauer Outline', element: 'a', attributes: {'class': 'btn btn-outline-secondary rounded-0 button-white'}}
+    - { name: 'Blauer Button', element: 'a', attributes: {'class': 'btn btn-outline-secondary rounded-0 button-blue'}}

@@ -1,0 +1,19 @@
+{
+  "name": "werkraum-gulp-small",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "^3",
+    "gulp-concat": "^2",
+    "gulp-sass": "^3",
+    "gulp-sourcemaps": "^2",
+    "gulp-postcss": "^7",
+    "gulp-rename": "^1",
+    "gulp-uglify": "^3",
+    "vinyl-source-stream": "^2"
+  }
+}

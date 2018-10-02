@@ -5,3 +5,4 @@ TCEFORM.tt_content.header_layout.altLabels {
     4 = H4
     5 = H5
 }
+RTE.default.preset = uebungs_template

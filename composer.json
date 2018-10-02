@@ -1,0 +1,21 @@
+{
+  "name": "werkraum/uebungs-template",
+  "type": "typo3-cms-extension",
+  "description": "Contains all page setup, layouts and templates.",
+  "keywords": ["typo3", "extension", "composer.json"],
+  "authors": [
+    {
+      "name": "Moritz Kiehl",
+      "email": "kiehlmoritz@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Werkraum\\UebungsTemplate\\": "Classes"
+    }
+  }
+}

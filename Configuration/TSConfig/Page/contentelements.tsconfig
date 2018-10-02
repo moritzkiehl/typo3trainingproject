@@ -1,0 +1,15 @@
+mod.wizards.newContentElement.wizardItems.common {
+    header = Elemente von Moritz
+    elements {
+        fewo-gallery {
+            iconIdentifier = content-image
+            title = Bildergalerie
+            description = Galerie für Bilder
+            tt_content_defValues {
+                CType = fewo-gallery
+            }
+        }
+    }
+
+    show := addToList(fewo-gallery)
+}
