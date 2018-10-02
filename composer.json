@@ -1,5 +1,5 @@
 {
-  "name": "werkraum/uebungs-template",
+  "name": "moritzkiehl/typo3trainingproject",
   "type": "typo3-cms-extension",
   "description": "Contains all page setup, layouts and templates.",
   "keywords": ["typo3", "extension", "composer.json"],
