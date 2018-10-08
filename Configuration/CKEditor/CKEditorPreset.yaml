@@ -7,7 +7,7 @@ imports:
 
 editor:
   config:
-    contentsCss: "EXT:uebungs_template/Resources/Public/CSS/editor.css"
+    contentsCss: "EXT:typo3trainingproject/Resources/Public/CSS/editor.css"
     defaultContentLanguage: "de"
     defaultLanguage: "de"
     toolbarGroups:

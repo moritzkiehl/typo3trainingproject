@@ -20,7 +20,7 @@ $typeName = 'fewo-gallery';
         $typeName,
     ),
     'CType',
-    'uebungs_template'
+    'typo3trainingproject'
 );
 
 $GLOBALS['TCA']['tt_content']['types'][$typeName] = array(

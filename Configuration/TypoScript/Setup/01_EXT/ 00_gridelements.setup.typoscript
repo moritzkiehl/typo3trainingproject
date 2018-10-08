@@ -6,9 +6,9 @@ lib.gridelements{
             templateName = TEXT
             templateName.field = tx_gridelements_backend_layout
 
-            layoutRootPaths.10 = EXT:uebungs_template/Resources/Private/Layouts/
-            partialRootPaths.10 = EXT:uebungs_template/Resources/Private/Partials/
-            templateRootPaths.10 = EXT:uebungs_template/Resources/Private/Templates/Gridelements/
+            layoutRootPaths.10 = EXT:typo3trainingproject/Resources/Private/Layouts/
+            partialRootPaths.10 = EXT:typo3trainingproject/Resources/Private/Partials/
+            templateRootPaths.10 = EXT:typo3trainingproject/Resources/Private/Templates/Gridelements/
         }
     }
 }

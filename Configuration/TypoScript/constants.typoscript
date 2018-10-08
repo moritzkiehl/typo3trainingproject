@@ -7,7 +7,7 @@
 ##########################
 #### Custom Constants ####
 ##########################
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:uebungs_template/Configuration/TypoScript/Constants">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:typo3trainingproject/Configuration/TypoScript/Constants">
 
 styles.templates {
     templateRootPath = EXT:pactware_template/Resources/Private/Templates/CE/
@@ -15,7 +15,7 @@ styles.templates {
     layoutRootPath = EXT:pactware_template/Resources/Private/Layouts/CE/
 }
 
-uebungs_template{
+typo3trainingproject{
     pids{
         home = 1
     }

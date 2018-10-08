@@ -1,7 +1,7 @@
 lib.contentElement{
-    layoutRootPaths.20 = EXT:uebungs_template/Resources/Private/Layouts/CE
-    partialRootPaths.20 = EXT:uebungs_template/Resources/Private/Partials/CE
-    templateRootPaths.20 = EXT:uebungs_template/Resources/Private/Templates/CE
+    layoutRootPaths.20 = EXT:typo3trainingproject/Resources/Private/Layouts/CE
+    partialRootPaths.20 = EXT:typo3trainingproject/Resources/Private/Partials/CE
+    templateRootPaths.20 = EXT:typo3trainingproject/Resources/Private/Templates/CE
 }
 
 tt_content{

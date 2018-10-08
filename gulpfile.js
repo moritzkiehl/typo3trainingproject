@@ -10,7 +10,7 @@ gulp.task('browser-sync:proxy', function () {
     bs.init({
         proxy: "localhost:8000",
         serveStatic: [{
-            route: ['/typo3conf/ext/uebungs_template/Resources/Public'],
+            route: ['/typo3conf/ext/typo3trainingproject/Resources/Public'],
             dir: 'Resources/Public'
         }],
         startPath: '/index.php?id=1'

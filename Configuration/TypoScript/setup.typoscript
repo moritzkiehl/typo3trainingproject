@@ -9,6 +9,6 @@
 ######################
 #### Custom Setup ####
 ######################
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:uebungs_template/Configuration/TypoScript/Setup">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:typo3trainingproject/Configuration/TypoScript/Setup">
 
 

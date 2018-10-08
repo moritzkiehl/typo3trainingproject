@@ -11,7 +11,7 @@ call_user_func(function()
      * Default TypoScript for Bob
      */
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
-        'uebungs_template',
+        'typo3trainingproject',
         'Configuration/TypoScript',
         'Moritz Übungsextension'
     );

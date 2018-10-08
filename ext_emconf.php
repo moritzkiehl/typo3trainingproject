@@ -1,11 +1,11 @@
     <?php
     $EM_CONF[$_EXTKEY] = [
-        'title' => 'Uebungs Template',
+        'title' => 'Typo3trainingproject',
         'description' => 'Extension um den Umgang mit TYPO3 zu verbessern',
         'category' => 'template',
         'constraints' => [
             'depends' => [
-                'typo3' => '9.3.0',
+                'typo3' => '9.5.0',
             ],
             'conflicts' => [
             ],

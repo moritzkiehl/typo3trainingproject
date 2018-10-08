@@ -23,23 +23,23 @@ page {
 
 
         templateRootPaths {
-            10 = EXT:uebungs_template/Resources/Private/Templates/Page/
-            20 = EXT:uebungs_template/Resources/Private/Templates/
+            10 = EXT:typo3trainingproject/Resources/Private/Templates/Page/
+            20 = EXT:typo3trainingproject/Resources/Private/Templates/
         }
 
         partialRootPaths {
-            10 = EXT:uebungs_template/Resources/Private/Partials
+            10 = EXT:typo3trainingproject/Resources/Private/Partials
 
         }
 
         layoutRootPaths {
-            10 = EXT:uebungs_template/Resources/Private/Layouts
+            10 = EXT:typo3trainingproject/Resources/Private/Layouts
 
         }
 
         settings {
             pids {
-                home = {$uebungs_template.pids.home}
+                home = {$typo3trainingproject.pids.home}
             }
         }
 
@@ -75,16 +75,19 @@ page {
         10.value = <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     }
     includeCSS{
-        bootstrapCSS = EXT:uebungs_template/Resources/Public/CSS/bootstrap.css
-        styles = EXT:uebungs_template/Resources/Public/CSS/styles.css
+        bootstrapCSS = EXT:typo3trainingproject/Resources/Public/CSS/bootstrap.css
+        styles = EXT:typo3trainingproject/Resources/Public/CSS/styles.css
 
     }
     includeJSFooter{
-        bootstrapJS = EXT:uebungs_template/Resources/Public/JS/bootstrap.js
+        bootstrapJS = EXT:typo3trainingproject/Resources/Public/JS/bootstrap.js
     }
     includeJSFooterlibs{
-        jquery = EXT:uebungs_template/Resources/Public/JS/jquery-3.3.1.js
+        vue = https://cdn.jsdelivr.net/npm/vue/dist/vue.js
+        jquery = EXT:typo3trainingproject/Resources/Public/JS/jquery-3.3.1.js
 
     }
-
+    meta {
+        viewport = width=device-width, initial-scale=1.0
+    }
 }
