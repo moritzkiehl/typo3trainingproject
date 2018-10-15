@@ -1,15 +1,24 @@
 mod.wizards.newContentElement.wizardItems.common {
-    header = Elemente von Moritz
+    header = Standart
     elements {
         fewo-gallery {
             iconIdentifier = content-image
-            title = Bildergalerie
-            description = Galerie für Bilder
+            title = Ferienwohnung Gallerie
+            description = Gallerie für Bilder
             tt_content_defValues {
                 CType = fewo-gallery
             }
         }
+
+        category-filter {
+            iconIdentifier = content-image
+            title = Filter für Kategorien
+            description =
+            tt_content_defValues {
+                CType = category-filter
+            }
+        }
     }
 
-    show := addToList(fewo-gallery)
+    show := addToList(fewo-gallery,category-filter)
 }

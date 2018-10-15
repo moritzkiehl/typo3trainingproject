@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+* {
+  font-family: 'Roboto', sans-serif; }
+
 .frame-type-textmedia div[data-mh="headline"] + h1, .frame-type-textmedia div[data-mh="headline"] + h2, .frame-type-textmedia div[data-mh="headline"] + h3, .frame-type-textmedia div[data-mh="headline"] + h4, .frame-type-textmedia div[data-mh="headline"] + h5, .frame-type-textmedia div[data-mh="headline"] + h6 {
   margin-top: 1rem;
   margin-bottom: 0.4rem; }
@@ -47,9 +50,6 @@
   .ce-nowrap.ce-right .ce-gallery {
     margin-left: 1rem; }
 
-* {
-  font-family: 'Roboto', sans-serif; }
-
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -90,5 +90,13 @@
     color: #fcc40d;
     background-color: #4ea0d8;
     border-color: #4ea0d8; }
+
+.fewo-gallery {
+  max-width: 400px;
+  width: 400px; }
+  .fewo-gallery img {
+    max-width: 400px; }
+  .fewo-gallery .card-body {
+    width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

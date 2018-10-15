@@ -7,12 +7,18 @@ $fields = [
         'config' => [
             'type' => 'textmedia'
         ]
+    ],
+    'category-filter' => [
+        'label' => 'Select',
+        'config' => [
+            'type' => 'Header'
+        ]
     ]
 ];
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tt_content', $fields);
 
-
+// Ferienwohnung Gallery
 $typeName = 'fewo-gallery';
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
     array(
@@ -29,5 +35,23 @@ $GLOBALS['TCA']['tt_content']['types'][$typeName] = array(
         --palette--;Header;header,
         bodytext;Text,
         --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.media,assets,
+    
+');
+//category-filter
+$typeName = 'category-filter';
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
+    array(
+        'CategoryFilter',
+        $typeName,
+    ),
+    'CType',
+    'typo3trainingproject'
+);
+
+$GLOBALS['TCA']['tt_content']['types'][$typeName] = array(
+    'showitem' => '
+        --palette--;;general,
+        --palette--;Header;header,
+        categories;Kategorien,
     
 ');

@@ -1,0 +1,12 @@
+<div class="card fewo-gallery">
+    <f:media class="card-image-top"file="{files.0}" width="400"></f:media>
+    <div class="card-body">
+        <f:if condition="{data.header}">
+            <h5 class="card-title">{data.header}</h5>
+        </f:if>
+        <p class="card-text">
+            <f:format.html>{data.bodytext}</f:format.html>
+        </p>
+        <f:link.typolink class="btn btn-primary" parameter="{data.header_link}"> Mehr zu Thema</f:link.typolink>
+    </div>
+</div>

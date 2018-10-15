@@ -10,9 +10,9 @@
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:typo3trainingproject/Configuration/TypoScript/Constants">
 
 styles.templates {
-    templateRootPath = EXT:pactware_template/Resources/Private/Templates/CE/
-    partialRootPath = EXT:pactware_template/Resources/Private/Partials/CE/
-    layoutRootPath = EXT:pactware_template/Resources/Private/Layouts/CE/
+    templateRootPath = EXT:typo3trainingproject/Resources/Private/Templates/CE/
+    partialRootPath = EXT:typo3trainingproject/Resources/Private/Partials/CE/
+    layoutRootPath = EXT:typo3trainingproject/Resources/Private/Layouts/CE/
 }
 
 typo3trainingproject{
