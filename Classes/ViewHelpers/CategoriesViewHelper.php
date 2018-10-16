@@ -1,6 +1,6 @@
 <?php
 
-namespace MoritzKiehl\FeWo\ViewHelpers;
+namespace Moritzkiehl\Typo3trainingproject\ViewHelpers;
 
 use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
 use TYPO3\CMS\Core\Category\Collection\CategoryCollection;
@@ -21,7 +21,7 @@ class CategoriesViewHelper extends AbstractViewHelper
 
     public function render(){
         $categoryCollection = new CategoryCollection("tt_content", "categories" );
-        $categories = $categoryCollection::load($this->arguments[],false,"sys_category","uid");
+        $categories = $categoryCollection::load($this->arguments[elementID],false,"sys_category","uid");
         return $categories;
     }
 
