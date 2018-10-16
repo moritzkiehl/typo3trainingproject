@@ -1,42 +1,10 @@
 tx_gridelements {
     setup {
-        TwoCol {
-            title = Zweispalter 50-50
-            description = Unterteilung des Inhaltes in zwei Spalten mit je 50% der verfügbaren Breite
+        Wrapper {
+            title = Wrapper für Elemente
+            description = Ordnet Elemente falls möglich nebeneinander an.
             icon =
             frame = 0
-            topLevelLayout = 0
-            config {
-                colCount = 2
-                rowCount = 1
-                rows {
-                    1 {
-                        columns {
-                            1 {
-                                name = Linke Spalte
-                                colPos = 10
-                                allowed {
-                                    CType = text,image,header,textmedia
-                                }
-                            }
-                            2 {
-                                name = Rechte Spalte
-                                colPos = 20
-                                allowed {
-                                    CType = text,image,header,textmedia
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        Accordeon {
-            title = Akkordeon für Inhalte
-            description = Aufklappbares Element um Inhalte anfangs zu verbergen und mittels Klick sichtbar zu machen
-            icon =
-            frame = 3
-            topLevelLayout = 0
             config {
                 colCount = 1
                 rowCount = 1
@@ -44,11 +12,8 @@ tx_gridelements {
                     1 {
                         columns {
                             1 {
-                                name = Inhalt
+                                name = Inhaltsbreich
                                 colPos = 10
-                                allowed {
-                                    CType = text,image,header,div
-                                }
                             }
                         }
                     }

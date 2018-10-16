@@ -12,3 +12,5 @@
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:typo3trainingproject/Configuration/TypoScript/Setup">
 
 
+page.config.contentObjectExceptionHandler = 0
+

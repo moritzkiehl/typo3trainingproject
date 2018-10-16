@@ -34,7 +34,10 @@ $GLOBALS['TCA']['tt_content']['types'][$typeName] = array(
         --palette--;;general,
         --palette--;Header;header,
         bodytext;Text,
+        categories;Kategorien,
         --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.media,assets,
+
+
     
 ');
 //category-filter
