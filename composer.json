@@ -15,7 +15,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Werkraum\\Typo3trainingprojectTemplate\\": "Classes"
+      "Werkraum\\Typo3trainingprojectTemplate\\": "Classes",
+      "MoritzKiehl\\FeWo\\": "Classes"
     }
   }
 }

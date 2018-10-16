@@ -2,6 +2,11 @@
 * {
   font-family: 'Roboto', sans-serif; }
 
+.page-content .row .col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
 .frame-type-textmedia div[data-mh="headline"] + h1, .frame-type-textmedia div[data-mh="headline"] + h2, .frame-type-textmedia div[data-mh="headline"] + h3, .frame-type-textmedia div[data-mh="headline"] + h4, .frame-type-textmedia div[data-mh="headline"] + h5, .frame-type-textmedia div[data-mh="headline"] + h6 {
   margin-top: 1rem;
   margin-bottom: 0.4rem; }
@@ -93,7 +98,8 @@
 
 .fewo-gallery {
   max-width: 400px;
-  width: 400px; }
+  width: 400px;
+  margin: 15px; }
   .fewo-gallery img {
     max-width: 400px; }
   .fewo-gallery .card-body {

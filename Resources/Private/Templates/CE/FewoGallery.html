@@ -1,4 +1,7 @@
+{namespace mk=MoritzKiehl\FeWo\ViewHelpers}
+
 <div class="card fewo-gallery">
+    <mk:categories elementID="{data.uid}"></mk:categories>
     <f:media class="card-image-top"file="{files.0}" width="400"></f:media>
     <div class="card-body">
         <f:if condition="{data.header}">
@@ -7,6 +10,8 @@
         <p class="card-text">
             <f:format.html>{data.bodytext}</f:format.html>
         </p>
-        <f:link.typolink class="btn btn-primary" parameter="{data.header_link}"> Mehr zu Thema</f:link.typolink>
+        <f:if condition="{data.header_link}">
+            <f:link.typolink class="btn btn-primary" parameter="{data.header_link}"> Mehr zu Thema</f:link.typolink>
+        </f:if>
     </div>
 </div>
