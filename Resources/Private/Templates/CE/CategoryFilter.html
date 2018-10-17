@@ -1,2 +1,19 @@
-<h2>{data.header}</h2>
-<button type="button" class="btn btn-primary">Primary</button>
+{namespace mk=Moritzkiehl\Typo3trainingproject\ViewHelpers}
+{namespace v = FluidTYPO3\Vhs\ViewHelpers}
+
+<div class="category-filter">
+    <f:debug>{_all}</f:debug>
+    <h2>{data.header}</h2>
+    <div class="category-filter-button-wrapper">
+        <f:for as="categoryItem" each="{mk:categories(elementID: '{data.uid}')}">
+            <button type="button" class="btn btn-primary {categoryItem.title}">{categoryItem.title}</button>
+        </f:for>
+    </div>
+</div>
+//language=JS
+<v:asset.script movable="true" overwrite="">
+
+    var categoryFilter = new Vue(
+</v:asset.script>
+
+

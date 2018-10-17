@@ -1,0 +1,11 @@
+.category-filter{
+  width: 100%;
+  text-align: center;
+  .category-filter-button-wrapper{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+}

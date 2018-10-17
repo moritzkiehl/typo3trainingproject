@@ -1,8 +1,7 @@
-{namespace mk=MoritzKiehl\FeWo\ViewHelpers}
+{namespace mk=Moritzkiehl\Typo3trainingproject\ViewHelpers}
 
-<div class="card fewo-gallery">
-    <mk:categories elementID="{data.uid}"></mk:categories>
-    <f:media class="card-image-top"file="{files.0}" width="400"></f:media>
+<div class="card fewo-gallery <f:for as='categoryItem' each='{mk:categories(elementID: "{data.uid}")}'>{categoryItem.title} </f:for>">
+    <f:media class="card-image-top" file="{files.0}" width="400"></f:media>
     <div class="card-body">
         <f:if condition="{data.header}">
             <h5 class="card-title">{data.header}</h5>
@@ -14,4 +13,5 @@
             <f:link.typolink class="btn btn-primary" parameter="{data.header_link}"> Mehr zu Thema</f:link.typolink>
         </f:if>
     </div>
+
 </div>

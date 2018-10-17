@@ -105,4 +105,14 @@
   .fewo-gallery .card-body {
     width: 100%; }
 
+.category-filter {
+  width: 100%;
+  text-align: center; }
+  .category-filter .category-filter-button-wrapper {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; }
+
 /*# sourceMappingURL=styles.css.map */
