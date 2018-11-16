@@ -7,12 +7,13 @@
     <div class="category-filter-button-wrapper">
         <f:for as="categoryItem" each="{mk:categories(elementID: '{data.uid}')}">
             <button type="button" class="btn btn-primary {categoryItem.title}">{categoryItem.title}</button>
+            <mk:helloWorld text="pls uppercase"/>
+            <mk:splitWords >Hallo Welt</mk:splitWords>
         </f:for>
     </div>
 </div>
 //language=JS
 <v:asset.script movable="true" overwrite="">
-
     var categoryFilter = new Vue(
 </v:asset.script>
 
